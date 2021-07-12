@@ -1,17 +1,24 @@
-<!doctype html>
-<style type="text/css">
-	#mainPopup {
-		padding: 10px;
-		height: 200px;
-		width: 400px;
-		font-family: Helvetica, Ubuntu, Arial, sans-serif;
-	}
-	h1 {
-		font-size: 2em;
-	}
-</style>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+    </head>
+    <body>
+        <section class="interface">
+            <div>
+                <img id="wplogo" src="">
+                <h3>WP Search & Replace</h3>
+                <p>Speeding up mixed content correction, one link at a time through CLI </p>
+                <button id="corrections" onclick="alert()">Get corrections
+                </button>
+            </div>
+        </section>
 
-<div id="mainPopup">
-<h1>Hello extensionizr!</h1>
-<p>To shut this popup down, edit the manifest file and remove the "default popup" key. To edit it, just edit ext/page_action/page_action.html. The CSS is there, too.</p>
-</div>
+
+        <section class="info">
+            <a lass="smaller" target="_self" href="https://samtoohey.xyz/wpsr"> right click me for info</a>
+        </section>
+        
+        <script src="js/popup.js" async defer></script>
+    </body>
+</html>
